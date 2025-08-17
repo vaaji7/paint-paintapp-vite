@@ -5,3 +5,4 @@ export default defineConfig({
   plugins: [react()],
   base: '/paint-paintapp-vite/', // 👈 must match your repo name
 })
+
