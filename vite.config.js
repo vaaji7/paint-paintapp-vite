@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/<REPO>/',        // IMPORTANT for GitHub Pages when it's a project page
   plugins: [react()],
+  base: '/paint-paintapp-vite/', // 👈 repo name, must match exactly
 })
